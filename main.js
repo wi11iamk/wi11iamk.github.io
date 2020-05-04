@@ -1,66 +1,74 @@
-/*----------------------------------------------------*/
-/* Quote Loop
------------------------------------------------------- */
+const BLACKLISTED_KEY_CODES = [ 38 ];
 
-function fade($ele) {
-    $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {
-        var $next = $(this).next('.quote');
-        fade($next.length > 0 ? $next : $(this).parent().children().first());
-   });
-}
-fade($('.quoteLoop > .quote').first());
+const COMMANDS = {
+  hello:
+    'Hello! And welcome. Please enter one of the following supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>',
+  about:
+    "Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology, currently living in Bethesda, Maryland. I have a passion for translational neuroscience and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching a good film!",
+  skills:
+    '<span class="code">Languages:</span> Python, R, Matlab<br><span class="code">Technologies:</span> EEG, MEG<br><span class="code">Frameworks:</span> DeepLabCut',
+  education:
+    "PhD, Neuroscience, University College London<br>MA, Communications, American University<br>BS, Psychology, University of Maryland",
+  resume: "<a href='./cv.pdf' class='success link'>cv.pdf</a>",
+  experience: "Plenty!",
+  contact:
+    "You can contact me on either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' class='success link'>Linkedin</a> , <a href='https://twitter.com/wi11iamk' class='success link'>Twitter</a><br>Additionally, please feel free to e-mail me:<br><a href='mailto:william.kistler@nih.gov' class='success link'>williamdkistler at gmail.com </a>"
+};
+let userInput, terminalOutput;
 
+const app = () => {
+  userInput = document.getElementById("userInput");
+  terminalOutput = document.getElementById("terminalOutput");
+  document.getElementById("dummyKeyboard").focus();
+  console.log("Application loaded");
+};
 
-/*----------------------------------------------------*/
-/* Navigation
------------------------------------------------------- */
+const execute = function executeCommand(input) {
+  let output;
+  input = input.toLowerCase();
+  if (input.length === 0) {
+    return;
+  }
+  output = `<div class="terminal-line"><span class="success">➜</span> <span class="directory">~</span> ${input}</div>`;
+  if (!COMMANDS.hasOwnProperty(input)) {
+    output += `<div class="terminal-line">no such command: ${input}</div>`;
+    console.log("Oops! no such command");
+  } else {
+    output += COMMANDS[input];
+  }
 
-$(window).scroll(function() {
+  terminalOutput.innerHTML = `${
+    terminalOutput.innerHTML
+  }<div class="terminal-line">${output}</div>`;
+  terminalOutput.scrollTop = terminalOutput.scrollHeight;
+};
 
-    if ($(window).scrollTop() > 300) {
-        $('.main_nav').addClass('sticky');
-    } else {
-        $('.main_nav').removeClass('sticky');
-    }
-});
+const key = function keyEvent(e) {
+  const input = userInput.innerHTML;
 
-// Mobile Navigation
-$('.mobile-toggle').click(function() {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.main_nav').removeClass('open-nav');
-    } else {
-        $('.main_nav').addClass('open-nav');
-    }
-});
+  if (BLACKLISTED_KEY_CODES.includes(e.keyCode)) {
+    return;
+  }
 
-$('.main_nav li a').click(function() {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.main_nav').removeClass('open-nav');
-    }
-});
+  if (e.key === "Enter") {
+    execute(input);
+    userInput.innerHTML = "";
+    return;
+  }
 
+  userInput.innerHTML = input + e.key;
+};
 
-/*----------------------------------------------------*/
-/* Smooth Scrolling
------------------------------------------------------- */
+const backspace = function backSpaceKeyEvent(e) {
+  if (e.keyCode !== 8 && e.keyCode !== 46) {
+    return;
+  }
+  userInput.innerHTML = userInput.innerHTML.slice(
+    0,
+    userInput.innerHTML.length - 1
+  );
+};
 
-jQuery(document).ready(function($) {
-
-   $('.smoothscroll').on('click',function (e) {
-	    e.preventDefault();
-
-	    var target = this.hash,
-	    $target = $(target);
-
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 800, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
-  
-});
-
-
-TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
+document.addEventListener("keydown", backspace);
+document.addEventListener("keypress", key);
+document.addEventListener("DOMContentLoaded", app);

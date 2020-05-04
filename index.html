@@ -1,107 +1,76 @@
 <!-- Header Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <script src="main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+      
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="main.js"></script>
+  
 </head>
 
-
-<header id="header">
-    <div class="main_nav">
-      <div class="container">
-        <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
-        <nav>
-          <ul>
-            <li><a class="smoothscroll" href="#header">Main</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#skills">Skills</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="title">
-      <div><span class="typcn typcn-group-outline icon heading"></span></div>
-      <div class="smallsep heading"></div>
-      <h1 class="heading">Welcome</h1>
-      <h2 class="heading">My name is wi11iam and together, we science.</h2>
-      <a class="smoothscroll" href="#about">
-      <div class="mouse">
-        <div class="wheel"></div>
-      </div>
-      </a> </div>
-    <a class="smoothscroll" href="#about">
-    <div class="scroll-down"></div>
-    </a> </header>
-    
-  <!-- About Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-    
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <h1>About</h1>
-        <div class="block"></div>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="row">
-        <div class="six columns">
-          <h3><span class="typcn typcn-mortar-board icon"></span>Education</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
-        <div class="six columns">
-          <h3><span class="typcn typcn-location-outline icon"></span>Aims</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
-        <div class="row">
-          <div class="six columns">
-            <h3><span class="typcn typcn-heart-outline icon"></span>Interests</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<section class="hero is-fullheight">
+<div class="hero-body">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3 is-flex">
+        <div class="column-child sidebar shadow">
+          <div class="sidebar-header has-text-centered">
+            <img
+              src="https://buffer.com/library/wp-content/uploads/2016/06/giphy.gif" alt="Avatar"
+              class="sidebar-image">
+            <h2 class="header-name">William Kistler</h2>
+            <h5>PhD Fellow</h5>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/william-david-kistler/"><i class="fab fa-linkedin icon"></i></a>
+              <a href="https://twitter.com/wi11iamk"><i class="fab fa-twitter icon"></i></a>
+              <a href="https://github.com/wi11iamk"><i class="fab fa-github icon"></i></a>
+              <a href="mailto:williamdkistler@gmail.gov"><i class="fa fa-envelope icon"></i></a>
+            </div>
+            <div class="resume">
+              <a href="./cv.pdf" class="sidebar-link">
+                cv
+              </a>
+            </div>
           </div>
-          <div class="six columns">
-            <h3><span class="typcn typcn-spanner-outline icon"></span>Hobbies</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+      </div>
+      <div class="column is-flex">
+        <div class="column-child terminal shadow">
+          <div class="terminal-bar dark-mode">
+            <div class="icon-btn close"></div>
+            <div class="icon-btn min"></div>
+            <div class="icon-btn max"></div>
+            <div class="terminal-bar-text is-hidden-mobile dark-mode-text">guest@wi11iamk: ~</div>
+          </div>
+          <div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
+            <div class="terminal-output" id="terminalOutput">
+              <div class="terminal-line">
+                <span class="help-msg">Welcome to my portfolio — Type <span class="code">hello</span>
+                  for a list of supported commands.</span>
+              </div>
+            </div>
+            <div class="terminal-line">
+              <span class="success">➜</span> <span class="directory">~</span> <span class="user-input"
+                id="userInput"></span>
+              <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  
-  <!-- Team Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-  
-  <section id="team">
-    <div class="container">
-      <div class="row">
-        <h1>My support</h1>
-        <div class="block"></div>
-        <p>Science is not left to any one person or moment. It is a team effort. These are the teammates that make me better.</p>
-      </div>
-      <div class="row">
-        <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
-          <h4>Susan Persky</h4>
-          <p>NIH Staff Scientist</p>
-          <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-twitter-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
-          <h4>Arthur Shapiro</h4>
-          <p>Department Head</p>
-          <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-twitter-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
-          <h4>Leo Cohen</h4>
-          <p>HCPS Chief</p>
-          <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-twitter-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
-          <h4>Sven Bestmann</h4>
-          <p>Lecturer in Neuroscience</p>
-          <span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-twitter-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</div>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <i class="fas fa-heart icon"></i>
+    </p>
+  </div>
+</footer>
+</section>
