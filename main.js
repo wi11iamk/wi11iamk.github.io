@@ -2,7 +2,7 @@ const BLACKLISTED_KEY_CODES = [ 38 ];
 
 const COMMANDS = {
   hello:
-    'Hello! And welcome. Please enter one of the following supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>',
+    'Hello! Please enter one of the following supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>',
   about:
     "Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology, currently living in Bethesda, Maryland. I have a passion for translational neuroscience and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching a good film!",
   skills:
