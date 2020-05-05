@@ -20,7 +20,6 @@ const app = () => {
   userInput = document.getElementById("userInput");
   terminalOutput = document.getElementById("terminalOutput");
   document.getElementById("dummyKeyboard").focus();
-  console.log("Application loaded");
 };
 
 const execute = function executeCommand(input) {
@@ -32,7 +31,6 @@ const execute = function executeCommand(input) {
   output = `<div class="terminal-line"><span class="success">➜</span> <span class="directory">~</span> ${input}</div>`;
   if (!COMMANDS.hasOwnProperty(input)) {
     output += `<div class="terminal-line">no such command: ${input}</div>`;
-    console.log("Oops! no such command");
   } else {
     output += COMMANDS[input];
   }
