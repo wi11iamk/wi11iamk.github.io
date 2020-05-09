@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.getElementsByTagName('form')[0].onsubmit = function(evt) {
     evt.preventDefault(); // Preventing the form from submitting
-    checkWord(); // Do your magic and check the entered word/sentence
+    checkWord(); // Check the entered word/sentence
     window.scrollTo(0,150);
   }
 
