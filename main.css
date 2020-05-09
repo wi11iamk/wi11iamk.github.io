@@ -172,7 +172,6 @@ p {
 .column-child {
     flex: 1;
 }
-
 .terminal-line {
     position: relative;
     font-family: 'Anonymous Pro', monospace;
@@ -180,26 +179,50 @@ p {
     color: #b7c5d2;
 }
 
-.directory {
-    color: #75e1e7;
-    font-weight: 500;
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #eee;
+    width: 100%;
 }
 
-.success {
-    color: #8dd39e;
+#terminalReslutsCont{
+    width:100%;
+    height: 400px;
+    padding: 12px;
+    overflow-y: hidden;
+    overflow: auto;
+    resize: none;
+    border: none;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    color: rgba(255,255,255,0.9);
 }
 
-.code, .error, .fa-heart {
+#terminalReslutsCont a{
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+}
+
+#terminalReslutsCont a:hover{
+    text-decoration: underline;
+}
+
+#terminalTextInput{
+    padding: 0 0 8px 2px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fa-heart {
     color: #d7566a
 }
 
 .fa-heart {
     padding-top: 0.5rem;
-}
-
-.dummy-keyboard {
-    opacity:0;
-    filter:alpha(opacity=0);
 }
 
 ::-webkit-scrollbar {
