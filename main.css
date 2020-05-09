@@ -212,7 +212,7 @@ input {
 }
 
 #terminalTextInput{
-    padding: 0 0 8px 2px;
+    padding: 0 0 4px 2px;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
 }
