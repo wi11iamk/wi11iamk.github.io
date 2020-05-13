@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', function() {
   var postHelpList = function(){
     // Array of all the help keywords
     var helpKeyWords = [
-      "- Open + website URL to open it in the browser (ex. open mahdif.com)",
-      "- Google + keyword to search directly in Google (ex. google banana)",
-      "- YouTube + keyword to search directly in YouTube (ex. youtube thanks Obama)",
+      "- 'About' will briefly introduce me and my work",
+      "- 'Education' will detail my degrees and when they were conferred",
+      "- 'Skills' will describe which methods I have used for my work",
+      "- 'Contact' will point you to ways to reach out",
+      "- Open + website URL to open it in the browser (ex. open reddit.com)",
+      "- Google + keyword to search directly in Google (ex. google adventure time)",
+      "- YouTube + keyword to search directly in YouTube (ex. youtube vox explained)",
       "- Wiki + keyword to search directly in Wikipedia (ex. wiki numbers)",
-      "- 'Time' will display the current time.",
-      "- 'Date' will display the current date.",
-      "- 'america' will keep you awake",
-      "- 'cat videos' will make you happy",
       "* There are more keywords that you have to discover by yourself."
     ].join('<br>');
     addTextToResults(helpKeyWords);
@@ -91,9 +91,30 @@ document.addEventListener('DOMContentLoaded', function() {
   var textReplies = function() {
     switch(textInputValueLowerCase){
       // unique replies [START]
+        
+      case "about":
+        clearInput();
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology, currently living in Bethesda, Maryland. I have a passion for the clinical and movement neurosciences and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching any number of films that I love!");
+        break;
+        
+      case "education":
+        clearInput();
+        addTextToResults("PhD, Neuroscience, University College London<br>MA, Communications, American University<br>BS, Psychology, University of Maryland");
+        break;
+        
+      case "skills":
+        clearInput();
+        addTextToResults("Languages: Python, R, Matlab<br>Technologies: EEG, MEG<br>Toolboxes: DeepLabCut");
+        break;
+        
+      case "contact":
+        clearInput();
+        addTextToResults("You can contact me on either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/'>Linkedin</a>, <a href='https://twitter.com/wi11iamk'>Twitter</a><br>Additionally, please feel free to e-mail me:<br><a href='mailto:william.kistler@nih.gov'>williamdkistler at gmail dot com </a>");
+        break;  
+        
       case "hermano":
         clearInput();
-        addTextToResults("An awesome scientist friend of mine. <br> Helped me a lot while in my Master's programme <a target='_blank' href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/'>Brendan Tunstall</a>");
+        addTextToResults("An amazing and talented scientist brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a target='_blank' href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/'>Brendan Tunstall</a>");
         break;
 
       case "i love you":
