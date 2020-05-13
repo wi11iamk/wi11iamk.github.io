@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Array of all the help keywords
     var helpKeyWords = [
       "- 'About' will briefly introduce me and my work",
-      "- 'Education' will detail my degrees and when they were conferred",
+      "- 'Education' will detail my degrees, the focus of each, and from which University they were conferred",
       "- 'Skills' will describe which methods I have used for my work",
       "- 'Contact' will point you to ways to reach out",
       "- Open + website URL to open it in the browser (ex. open reddit.com)",
