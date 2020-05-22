@@ -104,12 +104,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, R, Matlab<br>Technologies: EEG, MEG<br>Toolboxes: DeepLabCut");
+        addTextToResults("Languages: C, Python, R, Matlab, Javascript, Git<br>Technologies: EEG, MEG<br>Frameworks: DeepLabCut");
         break;
         
       case "contact":
         clearInput();
-        addTextToResults("You can contact me through either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/'>Linkedin</a>, <a href='https://twitter.com/wi11iamk'>Twitter</a><br>Further, please feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov'>williamdkistler at gmail dot com </a>");
+        addTextToResults("You can contact me through either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/'>Linkedin</a>, <a href='https://twitter.com/wi11iamk'>Twitter</a><br>If you'd like, please feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov'>williamdkistler at gmail dot com </a>");
         break;  
         
       case "hermano":
