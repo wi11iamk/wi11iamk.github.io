@@ -90,7 +90,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Having a specific text reply to specific strings
   var textReplies = function() {
     switch(textInputValueLowerCase){
-      // unique replies [START]
+
+      // unique replies [BEGIN]
         
       case "about":
         clearInput();
@@ -104,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: C, Python, R, Matlab, Javascript, Git<br>Technologies: EEG, MEG<br>Frameworks: DeepLabCut");
+        addTextToResults("Languages: Python, C, R, Matlab, Javascript, Git<br>Technologies: EEG, MEG<br>Software: DeepLabCut, FreeSurfer, Blender");
         break;
         
       case "contact":
@@ -151,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
       case "hi":
       case "hola":
         clearInput();
-        addTextToResults("Hello, it's me...😍");
+        addTextToResults("Well hello to you!");
         break;
 
       case "cat":
