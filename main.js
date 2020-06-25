@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "about":
         clearInput();
-        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology, currently living in Bethesda, Maryland. I have a passion for the clinical and movement neurosciences and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology. I have a passion for the clinical and movement neurosciences and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
         break;
         
       case "education":
