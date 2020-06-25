@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "about":
         clearInput();
-        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology, currently living in Bethesda, Maryland. I have a passion for the clinical and movement neurosciences and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching any number of <a href='https://mubi.com/lists/love' target = "_blank">films that I love</a>!");
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology, currently living in Bethesda, Maryland. I have a passion for the clinical and movement neurosciences and understanding how our results can be used for rehabilitation practices post-stroke. Outside of research, you can find me watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
         break;
         
       case "education":
@@ -110,12 +110,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "contact":
         clearInput();
-        addTextToResults("You can contact me through either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = "_blank">Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = "_blank">Twitter</a><br>If you'd like, please feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov' target = "_blank">williamdkistler at gmail dot com </a>");
+        addTextToResults("You can contact me through either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>If you'd like, please feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov' target = _blank>williamdkistler at gmail dot com </a>");
         break;  
         
       case "hermano":
         clearInput();
-        addTextToResults("An amazing and talented scientist brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = "_blank">Brendan Tunstall</a>");
+        addTextToResults("An amazing and talented scientist brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
         break;
 
       case "i love you":
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "git":
         clearInput();
-        addTextToResults("git push origin master <br>you can check this project's repo on GitHub: <a href='https://github.com/wi11iamk/wi11iamk.github.io' target = "_blank">wi11iamk.github.io</a>");
+        addTextToResults("git push origin master <br>you can check this project's repo on GitHub: <a href='https://github.com/wi11iamk/wi11iamk.github.io' target = _blank>wi11iamk.github.io</a>");
         break;
 
       case "git status":
