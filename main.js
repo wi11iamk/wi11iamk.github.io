@@ -105,12 +105,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, R, Matlab, Git, Bash<br>Technologies: EEG, MEG<br>Software: DeepLabCut, FreeSurfer, Blender");
+        addTextToResults("Languages: Python, C, Matlab, Git, Bash<br>Technologies: EEG, MEG<br>Software: DeepLabCut, FreeSurfer, Blender");
         break;
         
       case "contact":
         clearInput();
-        addTextToResults("You can contact me via the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov' target = _blank>williamdkistler at gmail dot com </a>");
+        addTextToResults("You can contact me via the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:williamdkistler@gmail.com' target = _blank>williamdkistler at gmail dot com </a>");
         break;  
         
       case "hermano":
@@ -122,13 +122,14 @@ document.addEventListener('DOMContentLoaded', function() {
       case "love you":
       case "love":
         clearInput();
-        addTextToResults("Aww! That's so sweet 😍. Here's some love for you too ❤ ❤ ❤ !");
+        addTextToResults("Aw! Here's some love for you too ❤ ❤ ❤ !");
         break;
 
       case "america":
       case "this is america":
       case "gambino":
       case "donald":
+      case "glover":
         clearInput();
         addTextToResults('This is America!');
         openLinkInNewWindow('https://www.youtube.com/watch?v=VYOjWnS4cMY');
@@ -163,6 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "what the":
       case "wtf":
+      case "fuck":
         clearInput();
         addTextToResults("F***, amirite?");
         break;
