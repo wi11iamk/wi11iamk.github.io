@@ -105,17 +105,17 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, R, Matlab, Javascript, Git<br>Technologies: EEG, MEG<br>Software: DeepLabCut, FreeSurfer, Blender");
+        addTextToResults("Languages: Python, C, R, Matlab, Git, Bash<br>Technologies: EEG, MEG<br>Software: DeepLabCut, FreeSurfer, Blender");
         break;
         
       case "contact":
         clearInput();
-        addTextToResults("You can contact me through either of the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>If you'd like, please feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov' target = _blank>williamdkistler at gmail dot com </a>");
+        addTextToResults("You can contact me via the following links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:william.kistler@nih.gov' target = _blank>williamdkistler at gmail dot com </a>");
         break;  
         
       case "hermano":
         clearInput();
-        addTextToResults("An amazing and talented scientist brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
+        addTextToResults("An amazing and talented scientist/brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
         break;
 
       case "i love you":
@@ -128,6 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
       case "america":
       case "this is america":
       case "gambino":
+      case "donald":
         clearInput();
         addTextToResults('This is America!');
         openLinkInNewWindow('https://www.youtube.com/watch?v=VYOjWnS4cMY');
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "git push origin master":
         clearInput();
-        addTextToResults("Push it!");
+        addTextToResults("Push it real good.");
         break;
 
       case "hello":
@@ -157,13 +158,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "cat":
         clearInput();
-        addTextToResults("Meow!! 🐱<br> psst: try typing (cat videos)");
+        addTextToResults("Mrow!! 🐱<br> psst: try typing (cat videos)");
         break;
 
       case "what the":
       case "wtf":
         clearInput();
-        addTextToResults("F***.");
+        addTextToResults("F***, amirite?");
         break;
 
       case "shit":
