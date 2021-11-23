@@ -105,12 +105,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, Matlab, Git, Bash<br>Technologies: EEG, MEG<br>Software: DeepLabCut, FreeSurfer, Blender, Linux");
+        addTextToResults("Languages: Python, C, Git, Bash<br>Technologies: MEG<br>Software: DeepLabCut, Spyder, Blender, Linux");
         break;
         
       case "contact":
         clearInput();
-        addTextToResults("You can contact me via these links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:williamdkistler@gmail.com' target = _blank>williamdkistler at gmail dot com </a>");
+        addTextToResults("You can contact me with these links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:williamdkistler@gmail.com' target = _blank>williamdkistler at gmail dot com </a>");
         break;  
         
       case "hermano":
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
       case "love you":
       case "love":
         clearInput();
-        addTextToResults("Aw! Here's some love for you too ❤ !");
+        addTextToResults("I know ❤.");
         break;
 
       case "america":
@@ -143,11 +143,6 @@ document.addEventListener('DOMContentLoaded', function() {
       case "git status":
         clearInput();
         addTextToResults("nothing to commit, working directory clean.");
-        break;
-
-      case "git push origin master":
-        clearInput();
-        addTextToResults("Push it real good.");
         break;
 
       case "hello":
@@ -178,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "cat videos":
       case "cat v":
-        addTextToResults("Okay I'll show you some in YouTube.");
+        addTextToResults("Mrow!");
         openLinkInNewWindow('https://www.youtube.com/results?search_query=cat videos');
         break;
 
