@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "about":
         clearInput();
-        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology. I have a passion for the movement and visual neurosciences, and I'd like for my work to benefit the assessment of movement and impairment in persons with stroke. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology. I have a passion for the movement and visual neurosciences, and I would like my work to benefit the assessment of motor impairment in persons with stroke. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
         break;
         
       case "education":
