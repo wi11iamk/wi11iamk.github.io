@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Array of all the help keywords
     var helpKeyWords = [
       "- 'About' will briefly introduce me and my work",
-      "- 'Education' will detail my degrees, the focus of each, and from which University they were conferred",
+      "- 'Education' will list my degrees, the focus of each, and from which University they were conferred",
       "- 'Skills' will describe which methods I have used for my work",
       "- 'Contact' will point you to ways to reach out",
       "- Open + website URL to open it in the browser (ex. open reddit.com)",
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "hermano":
         clearInput();
-        addTextToResults("An amazing and talented scientist/brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
+        addTextToResults("A talented scientist and kind brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
         break;
 
       case "i love you":
@@ -134,6 +134,13 @@ document.addEventListener('DOMContentLoaded', function() {
         addTextToResults('This is America!');
         openLinkInNewWindow('https://www.youtube.com/watch?v=VYOjWnS4cMY');
         break;
+        
+      case "how are you":
+      case "how are ya":
+      case "how are things":
+        clearInput();
+        addTextToResults('This is America!');
+        break;
 
       case "git":
         clearInput();
@@ -150,6 +157,14 @@ document.addEventListener('DOMContentLoaded', function() {
       case "hola":
         clearInput();
         addTextToResults("Well hello to you!");
+        break;
+        
+      case "how are you":
+      case "how are ya":
+      case "how are things":
+      case "how's life":
+        clearInput();
+        addTextToResults("Doin' just fine, thanks!");
         break;
 
       case "cat":
