@@ -138,8 +138,9 @@ document.addEventListener('DOMContentLoaded', function() {
       case "how are you":
       case "how are ya":
       case "how are things":
+      case "how's things":  
         clearInput();
-        addTextToResults('This is America!');
+        addTextToResults('Pretty good, thanks :o)');
         break;
 
       case "git":
