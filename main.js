@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "education":
         clearInput();
-        addTextToResults("PhD, Neuroscience, University College London<br>MA, Communications, American University<br>BS, Psychology, University of Maryland");
+        addTextToResults("PhD, Neuroscience, University College London<br>MA, Visual Perception and Neuroscience, American University<br>BS, Psychology, University of Maryland");
         break;
         
       case "skills":
