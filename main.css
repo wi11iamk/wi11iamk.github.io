@@ -188,6 +188,10 @@ input {
     color: #0a192f
 }
 
+.fa-heart:hover {
+    color: #bf120f 
+}
+
 .fa-heart {
     padding-top: 0.5rem;
 }
