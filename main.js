@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "about":
         clearInput();
-        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Institute of Neurology. I have a passion for the movement and visual neurosciences, and I would like my work to benefit the assessment of motor impairment in persons with stroke. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Queen Square Institute of Neurology. I have a passion for the movement and visual neurosciences, and I would like my work to benefit the assessment of motor impairment in persons with stroke. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
         break;
         
       case "education":
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Matlab, Python, C, Git, Bash<br>Technologies: MEG<br>Software: DeepLabCut, Spyder IDE, Blender, Linux, Inkscape");
+        addTextToResults("Languages: Matlab, Python, C, Git, Bash<br>Technologies: MEG<br>Software: DeepLabCut, Spyder IDE, Blender, Inkscape, GNU/Linux");
         break;
         
       case "contact":
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "hermano":
         clearInput();
-        addTextToResults("A talented scientist and kind brother of mine. <br> He helped me a lot while I was in my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
+        addTextToResults("A talented scientist and kind brother of mine. <br> He guided my thinking quite a lot during my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
         break;
 
       case "i love you":
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
       case "how are things":
       case "how's things":  
         clearInput();
-        addTextToResults('Pretty good, thanks :o)');
+        addTextToResults('Yeah pretty good thanks.');
         break;
 
       case "git":
@@ -159,14 +159,6 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInput();
         addTextToResults("Well hello to you!");
         break;
-        
-      case "how are you":
-      case "how are ya":
-      case "how are things":
-      case "how's life":
-        clearInput();
-        addTextToResults("Doin' just fine, thanks!");
-        break;
 
       case "cat":
         clearInput();
@@ -177,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
       case "wtf":
       case "fuck":
         clearInput();
-        addTextToResults("F***, amirite?");
+        addTextToResults("I know, right?");
         break;
 
       case "shit":
