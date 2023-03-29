@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "contact":
         clearInput();
-        addTextToResults("You can contact me with these links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:williamdkistler@gmail.com' target = _blank>williamdkistler at gmail dot com </a>");
+        addTextToResults("You can contact me using these links:<br><a href='https://www.linkedin.com/in/william-david-kistler/' target = _blank>Linkedin</a>, <a href='https://twitter.com/wi11iamk' target = _blank>Twitter</a><br>Or if you'd like, feel free to e-mail me directly:<br><a href='mailto:williamdkistler@gmail.com' target = _blank>williamdkistler at gmail dot com </a>");
         break;  
         
       case "hermano":
