@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, Git, Bash<br>Technologies: MEG<br>Software: DeepLabCut, Spyder IDE, Inkscape, Blender, GNU/Linux");
+        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: MEG<br>Software: DeepLabCut, Spyder IDE, Inkscape, Blender, GNU/Linux");
         break;
         
       case "contact":
