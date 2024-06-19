@@ -100,12 +100,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "education":
         clearInput();
-        addTextToResults("PhD, Neuroscience, University College London<br>MA, Visual Perception and Neuroscience, American University<br>BS, Psychology, University of Maryland");
+        addTextToResults("PhD, Neuroscience, National Institutes of Health & University College London<br>MA, Visual Perception and Neuroscience, American University<br>BS, Psychology, University of Maryland");
         break;
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: MEG<br>Software: DeepLabCut, Spyder IDE, Inkscape, Blender, GNU/Linux");
+        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: Virtual reality, Motion capture, MEG<br>Software/Libraries: DeepLabCut, PyTorch, PsyToolkit, Amazon Mechanical Turk (MTurk), Inkscape, Blender, GNU/Linux");
         break;
         
       case "contact":
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "hermano":
         clearInput();
-        addTextToResults("A talented scientist and kind brother of mine. <br> He guided my thinking quite a lot during my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
+        addTextToResults("A talented scientist and kind brother of mine. <br> He guided me throughout my Master's programme. He is <a href='https://www.linkedin.com/in/brendan-tunstall-2ab3b495/' target = _blank>Brendan Tunstall</a>");
         break;
 
       case "i love you":
