@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: Virtual reality, Motion capture, MEG<br>Software/Libraries: DeepLabCut, PyTorch, PsyToolkit, Amazon Mechanical Turk (MTurk), Inkscape, Blender, GNU/Linux");
+        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: Virtual reality, Motion capture, Computer vision, MEG<br>Software/Libraries: DeepLabCut, PyTorch, PsyToolkit, MTurk, Inkscape, Blender, GNU/Linux");
         break;
         
       case "contact":
