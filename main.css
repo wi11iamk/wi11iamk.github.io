@@ -43,8 +43,13 @@ p {
 
 }
 .header-name {
+    font-size: 18px !important;
     font-weight: 600;
     color: rgb(230, 241, 255);
+}
+
+.sidebar-header h5 {
+  font-size: 18px !important;
 }
 
 .icon, .sidebar-link {
