@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "education":
         clearInput();
-        addTextToResults("PhD, Neuroscience, NIH & UCL<br>MA, Visual Perception and Neuroscience, American University<br>BS, Psychology, University of Maryland");
+        addTextToResults("PhD, Neuroscience, NIH/NINDS & UCL QS IoN<br>MA, Visual Perception and Neuroscience, American University<br>BS, Psychology, University of Maryland");
         break;
 
       case "skills":
