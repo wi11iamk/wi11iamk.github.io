@@ -1,10 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+  // Define openLinkInNewWindow at the beginning so it's available to all functions below
+  function openLinkInNewWindow(url) {
+    window.open(url, '_blank');
+  }
+
   document.getElementsByTagName('form')[0].onsubmit = function(evt) {
     evt.preventDefault();
     checkWord();
     window.scrollTo(0,150);
-  }
+  };
 
   document.getElementById('terminalTextInput').focus();
 
@@ -13,19 +18,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var clearInput = function(){
     document.getElementById('terminalTextInput').value = "";
-  }
+  };
 
   var scrollToBottomOfResults = function(){
     var terminalResultsDiv = document.getElementById('terminalReslutsCont');
     terminalResultsDiv.scrollTop = terminalResultsDiv.scrollHeight;
-  }
+  };
 
   scrollToBottomOfResults();
 
   var addTextToResults = function(textToAdd){
     document.getElementById('terminalReslutsCont').innerHTML += "<p>" + textToAdd + "</p>";
     scrollToBottomOfResults();
-  }
+  };
 
   var postHelpList = function(){
     var helpKeyWords = [
