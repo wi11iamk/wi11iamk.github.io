@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     switch(textInputValueLowerCase){
       case "about":
         clearInput();
-        addTextToResults("Hello 👋<br>My name is William Kistler. I am a PhD fellow in Neuroscience with the NIH and UCL Queen Square Institute of Neurology. I have passions for the movement and visual neurosciences, as well as applications and safeguards for ML and AI in healthcare. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a Behavioural Neuroscientist trained at the National Institutes of Health and UCL Queen Square Institute of Neurology. I have passions for the movement and visual neurosciences, as well as applications and safeguards for ML and AI in healthcare and the life sciences. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
         break;
 
       case "education":
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       case "skills":
         clearInput();
-        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: Virtual reality, Motion capture, Computer vision, MEG<br>Software/Libraries: PyTorch, DeepLabCut, PsyToolkit, MTurk, Inkscape, Blender, GNU/Linux");
+        addTextToResults("Languages: Python, C, Git, Bash, Cython<br>Technologies: Virtual reality, Motion capture, Computer vision, MEG<br>Software/Libraries: PyTorch, NumPy, pandas, scikit-learn, DeepLabCut, PsyToolkit, MTurk, Inkscape, Blender, GNU/Linux");
         break;
         
       case "contact":
