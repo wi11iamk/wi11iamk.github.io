@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     switch(textInputValueLowerCase){
       case "about":
         clearInput();
-        addTextToResults("Hello 👋<br>My name is William Kistler. I am a Neuroscientist trained at the National Institutes of Health and UCL Queen Square Institute of Neurology. I have passions for the movement and visual neurosciences, as well as applications and safeguards for ML and AI in healthcare and the life sciences. Outside of research, I can be found watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
+        addTextToResults("Hello 👋<br>My name is William Kistler. I am a Neuroscientist trained at the National Institutes of Health and UCL Queen Square Institute of Neurology. I have passions for the movement and visual neurosciences, as well as applications and safeguards for ML and AI in healthcare and the life sciences. Outside of research, I can be found writing or watching any number of <a target = _blank href='https://mubi.com/lists/love' >films that I love</a>!");
         break;
 
       case "education":
